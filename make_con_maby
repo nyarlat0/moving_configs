@@ -1,0 +1,9 @@
+COMMON_FLAGS="-march=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+
+#USE="-systemd -vte -pulseaudio -aqua -wayland -cups -gnome -policykit -emacs -noveau -nls -oss -kde -gtk -gtk3 -qt5 -qt6 nettle alsa truetype vulkan zstd lz4 zfs dbus ffmpeg llvm lto jit pipewire X"
+
+CPU_FLAGS="aes avx avx2 f16c fma3 mmx mmxext pclmul popcnt sse sse2 sse3 sse4_1 sse4_2 sse4a ssse3"
+
+USE="-gnome -kde -systemd -wayland -css -3dfx -ios -ipod -iee1394 -aqua -a52 -cjk -qt4 -qt5 -ldap -berkdb -clamav -coreaudio -emacs -xemacs -gtk -gtk2 -gtk3 -gtk4 -motif -emboss -smartcard -nls -nntp -quicktime -dbus libressl alsa lto -xinerama ffmpeg X amd64 bluetooth "
